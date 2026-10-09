@@ -1,31 +1,19 @@
-# rsc Scoop bucket
+# kits
 
 [简体中文](README.zh-CN.md)
 
-Scoop manifests for [rsc](https://github.com/yhwwwwww/rsc), an independent Windows package manager written in Rust.
+A Scoop bucket for Windows tools.
 
-## Install
+Package manifests are stored in `bucket/`. Each manifest describes a package and points to its release downloads, with checksums and package-specific requirements.
 
-```powershell
-scoop bucket add rsc https://github.com/yhwwwwww/scoop-bucket
-scoop install rsc/rsc
-```
+## Packages
 
-The manifest supports Windows x64 and verifies the release executable using SHA-256. rsc is distributed as a single executable.
+| Package | Description | Documentation |
+| --- | --- | --- |
+| rsc | A Scoop-compatible Windows package manager written in Rust | [rsc README](https://github.com/yhwwwwww/rsc/blob/main/README.md) |
 
-## Update
-
-```powershell
-scoop update
-scoop update rsc
-```
-
-## Maintenance
-
-The rsc repository's **Actions → Release → Run workflow** builds and publishes the executable, then updates `bucket/rsc.json` with the exact release URL and checksum. A dedicated deploy key allows that workflow to write only to this bucket. Published versions are not overwritten.
-
-This bucket contains manifests and documentation, with no Scoop implementation code.
+Installation and upgrade instructions belong to each project's documentation, linked above.
 
 ## License
 
-[GNU GPL v3.0 only](LICENSE). The rsc executable uses the license declared in its manifest.
+[GNU GPL v3.0 only](LICENSE) applies to this repository. Packaged software retains its own license, as declared in each manifest.
