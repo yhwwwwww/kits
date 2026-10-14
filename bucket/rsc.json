@@ -1,12 +1,12 @@
 {
-    "version": "v0.1.0-3-ga6907e4",
+    "version": "v0.1.0-3-ga6907e4-2-ge634403",
     "description": "A Windows package manager compatible with Scoop",
     "homepage": "https://github.com/yhwwwwww/rsc",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yhwwwwww/rsc/releases/download/v0.1.0-3-ga6907e4/rsc.exe",
-            "hash": "0ceeb14b9648adfee0bb7b445c305c5590d9a47c957a5c603597df04ca30a6f6"
+            "url": "https://github.com/yhwwwwww/rsc/releases/download/v0.1.0-3-ga6907e4-2-ge634403/rsc.exe",
+            "hash": "8e11e794ce28a0d7144244acbf266d165e3913fcf61fa9dae3ac14fb7eab11af"
         }
     },
     "bin": "rsc.exe",
